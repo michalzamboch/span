@@ -5,6 +5,8 @@
 - Basically a struct { T * ptr; std::size_t size; } with a bunch of convenience methods.
 - A non-owning type (i.e. a "reference-type" rather than a "value type"):
 It never allocates nor deallocates anything and does not keep smart pointers alive.
+- Simillar to string_view
+- Also in other languages (C#)
 
 ## When to use span
 
