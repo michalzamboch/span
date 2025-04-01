@@ -1,0 +1,6 @@
+[
+{
+  "directory": "/home/michalzamboch/programming/cpp/span",
+  "arguments": ["/usr/lib64/ccache/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-o", "build/.objs/span/linux/x86_64/debug/src/main.cpp.o", "src/main.cpp"],
+  "file": "src/main.cpp"
+}]
