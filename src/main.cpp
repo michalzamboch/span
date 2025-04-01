@@ -6,6 +6,15 @@
 
 void printSpan(std::span<int> numbers)
 {
+    if (numbers.extent == std::dynamic_extent)
+    {
+        std::cout << "dynamic" << std::endl;
+    }
+    else
+    {
+        std::cout << "static" << std::endl;
+    }
+
     for (const auto& num : numbers) {
         std::cout << num << " ";
     } 
